@@ -21,7 +21,7 @@ s.description      = "UIImageView subclass which generates text as the placehold
 
   s.homepage         = 'https://github.com/gkye/ContactImageView'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { '=' => 'qwstnz@gmail.com' }
+  s.author           = { '=' => 'gkye@live.ca' }
   s.source           = { :git => 'https://github.com/gkye/ContactImageView.git', :tag => s.version.to_s }
   s.social_media_url = 'https://twitter.com/kyegeorge'
 
