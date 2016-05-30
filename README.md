@@ -11,7 +11,7 @@ Drag `ContactImageView.swift` file to your project
 
 ## Usage
 
-### Stoyboard / `IBDesignable`
+### Storyboard / `IBDesignable`
 ![IBDesignable screenshot](http://g.recordit.co/vqI1yZmutI.gif)
 
 ### Programmatic / Code
