@@ -14,13 +14,13 @@ CocoaPods comming soon
 ## Usage
 
 ### Stoyboard / `IBDesignable`
-![IBDesignable screenshot](http://g.recordit.co/y9I4tRY4T3.gif)
+![IBDesignable screenshot](http://g.recordit.co/vqI1yZmutI.gif)
 
 ### Programmatic / Code
 Option  1
 ```swift
 let imageView = ContactImageView(frame: CGRect(x:10, y: 50, width: 100, height: 100))
-imageView.setImageText(text: "George Kye", username: true, textColor: UIColor.whiteColor(), fillColor: UIColor.blackColor(), circle: true, twoCharactersOnly: true) 
+imageView.setImageText(text: "George Kye", backgroundImage: UIImage(named: "bg"), username: true, textColor: UIColor.whiteColor(), fillColor: UIColor.blackColor(), circle: true) //backgroundImage is optional
 ```
 Option 2
 ```swift
@@ -32,7 +32,6 @@ Option 2
     imageView2.textFont = UIFont.italicSystemFontOfSize(30) //Default = UIFont.systemFontOfSize(22)
     imageView2.fontSize = 11 //Default = 22
     imageView2.fillColor = UIColor.greenColor() //Default = UIColor.lightGrayColor
-    imageView2.twoCharactersOnly = false //twoCharactersOnly is override if username == true
 ```
 ## Author
 <a href="twitter.com/gkye">George Kye </a>
