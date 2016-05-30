@@ -15,7 +15,7 @@ import UIKit
   /// Sets font for text (Default is UIFont(20) **UIFONT not currently supported in @IBInspectable
   public var textFont: UIFont = UIFont.systemFontOfSize(22)
   
-  @IBInspectable var fontSize: CGFloat = 22{
+  @IBInspectable public var fontSize: CGFloat = 22{
     didSet{
       textFont = textFont.fontWithSize(fontSize)
       prepareForInterfaceBuilder()
@@ -30,27 +30,26 @@ import UIKit
   }
   
   /// Set text to be displayed in UIImageView, default is "GK".
-  @IBInspectable var text: String = "GK"{
+  @IBInspectable public var text: String = "GK"{
     didSet{
       prepareForInterfaceBuilder()
     }
   }
   
-  @IBInspectable var username: Bool = false{
+  @IBInspectable public var username: Bool = false{
     didSet{
       prepareForInterfaceBuilder()
     }
   }
   
-  ///If true and  text length is greater than two it's truncate to two characters
-  @IBInspectable public var twoCharactersOnly: Bool = true{
+  @IBInspectable public var backgroundImage: UIImage? = nil{
     didSet{
       prepareForInterfaceBuilder()
     }
   }
   
   /// Returns a circular if set true, default is false
-  @IBInspectable var circle: Bool = true{
+  @IBInspectable public var circle: Bool = true{
     didSet{
       prepareForInterfaceBuilder()
     }
@@ -61,7 +60,7 @@ import UIKit
     didSet{
       prepareForInterfaceBuilder()
     }
-  }  
+  }
   
   override public var bounds: CGRect {
     didSet {
@@ -71,28 +70,21 @@ import UIKit
   
   override public func prepareForInterfaceBuilder() {
     super.prepareForInterfaceBuilder()
-    setImageText(text: text, username: username, font: textFont, textColor: textColor, fillColor: fillColor, circle: circle, twoCharactersOnly: twoCharactersOnly)
+    setImageText(text: text, backgroundImage: backgroundImage, username: username, font: textFont, textColor: textColor, fillColor: fillColor, circle: circle)
   }
   
   
-  public func setImageText(text text: String, username: Bool = false, font: UIFont = UIFont.systemFontOfSize(22), textColor: UIColor = UIColor.whiteColor(), fillColor: UIColor, circle: Bool = true, twoCharactersOnly: Bool = true) {
+  public func setImageText(text text: String, backgroundImage: UIImage? = nil, username: Bool = false, font: UIFont = UIFont.systemFontOfSize(22), textColor: UIColor = UIColor.whiteColor(), fillColor: UIColor, circle: Bool = true){
     
     var imgText = text
     
     if username{
       imgText = getCharactersFromName(text)
-    }else{
-      if self.twoCharactersOnly == true{
-        if text.characters.count > 2{
-          let index = text.startIndex.advancedBy(2)
-          imgText = text.substringToIndex(index)
-        }
-      }
     }
     
     let attributes = getAttributedText(imgText, color: textColor, textFont: font)
     let attributedText = NSAttributedString(string: imgText, attributes: attributes)
-    self.image = createImage(attributedText, backgroundColor: fillColor)
+    self.image = createImage(attributedText, backgroundImage: backgroundImage, backgroundColor: fillColor)
   }
   
   
@@ -122,19 +114,26 @@ import UIKit
    
    - returns: an ImageView with text rendered
    */
-  private func createImage(attributedString: NSAttributedString, backgroundColor: UIColor) -> UIImage {
+  private func createImage(attributedString: NSAttributedString, backgroundImage: UIImage? = nil, backgroundColor: UIColor) -> UIImage {
     let scale = UIScreen.mainScreen().scale
     let bounds = self.bounds
     UIGraphicsBeginImageContextWithOptions(bounds.size, false, scale)
     let context = UIGraphicsGetCurrentContext()
+    
     
     if (circle) {
       let path = CGPathCreateWithEllipseInRect(self.bounds, nil);
       CGContextAddPath(context, path)
       CGContextClip(context)
     }
-    CGContextSetFillColorWithColor(context, backgroundColor.CGColor)
-    CGContextFillRect(context, CGRectMake(0, 0, bounds.size.width, bounds.size.height))
+    
+    if backgroundImage != nil{
+      backgroundImage!.drawInRect(CGRectMake(0, 0, self.bounds.size.width, self.bounds.size.height))
+      
+    }else{
+      CGContextSetFillColorWithColor(context, backgroundColor.CGColor)
+      CGContextFillRect(context, CGRectMake(0, 0, bounds.size.width, bounds.size.height))
+    }
     
     let textSize = attributedString.size()
     let rect = CGRect(x: bounds.size.width/2 - textSize.width/2, y: bounds.size.height/2 - textSize.height/2, width: textSize.width, height: textSize.height)
@@ -146,6 +145,7 @@ import UIKit
     
     return image;
   }
+  
   
   /**
    Retrive initals from a full name

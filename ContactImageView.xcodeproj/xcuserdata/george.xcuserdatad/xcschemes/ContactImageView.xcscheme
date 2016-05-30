@@ -14,8 +14,8 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5ECED85D1CFB9AB700395C66"
-               BuildableName = "ContactImageView.framework"
+               BlueprintIdentifier = "5E3BBBEF1CFB7810003D60BB"
+               BuildableName = "ContactImageView.app"
                BlueprintName = "ContactImageView"
                ReferencedContainer = "container:ContactImageView.xcodeproj">
             </BuildableReference>
@@ -32,7 +32,7 @@
             skipped = "NO">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "5ECED8671CFB9AB800395C66"
+               BlueprintIdentifier = "5E3BBC031CFB7854003D60BB"
                BuildableName = "ContactImageViewTests.xctest"
                BlueprintName = "ContactImageViewTests"
                ReferencedContainer = "container:ContactImageView.xcodeproj">
@@ -42,8 +42,8 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5ECED85D1CFB9AB700395C66"
-            BuildableName = "ContactImageView.framework"
+            BlueprintIdentifier = "5E3BBBEF1CFB7810003D60BB"
+            BuildableName = "ContactImageView.app"
             BlueprintName = "ContactImageView"
             ReferencedContainer = "container:ContactImageView.xcodeproj">
          </BuildableReference>
@@ -61,15 +61,16 @@
       debugDocumentVersioning = "YES"
       debugServiceExtension = "internal"
       allowLocationSimulation = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5ECED85D1CFB9AB700395C66"
-            BuildableName = "ContactImageView.framework"
+            BlueprintIdentifier = "5E3BBBEF1CFB7810003D60BB"
+            BuildableName = "ContactImageView.app"
             BlueprintName = "ContactImageView"
             ReferencedContainer = "container:ContactImageView.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
       <AdditionalOptions>
       </AdditionalOptions>
    </LaunchAction>
@@ -79,15 +80,16 @@
       savedToolIdentifier = ""
       useCustomWorkingDirectory = "NO"
       debugDocumentVersioning = "YES">
-      <MacroExpansion>
+      <BuildableProductRunnable
+         runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "5ECED85D1CFB9AB700395C66"
-            BuildableName = "ContactImageView.framework"
+            BlueprintIdentifier = "5E3BBBEF1CFB7810003D60BB"
+            BuildableName = "ContactImageView.app"
             BlueprintName = "ContactImageView"
             ReferencedContainer = "container:ContactImageView.xcodeproj">
          </BuildableReference>
-      </MacroExpansion>
+      </BuildableProductRunnable>
    </ProfileAction>
    <AnalyzeAction
       buildConfiguration = "Debug">

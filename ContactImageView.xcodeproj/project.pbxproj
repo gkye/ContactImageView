@@ -7,119 +7,108 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		5ECED8621CFB9AB700395C66 /* ContactImageView.h in Headers */ = {isa = PBXBuildFile; fileRef = 5ECED8611CFB9AB700395C66 /* ContactImageView.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		5ECED8691CFB9AB800395C66 /* ContactImageView.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5ECED85E1CFB9AB700395C66 /* ContactImageView.framework */; };
-		5ECED86E1CFB9AB800395C66 /* ContactImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECED86D1CFB9AB800395C66 /* ContactImageViewTests.swift */; };
-		5ECED8791CFB9AD700395C66 /* ContactImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECED8781CFB9AD700395C66 /* ContactImageView.swift */; };
-		5ECED87B1CFBA33200395C66 /* ContactImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ECED8781CFB9AD700395C66 /* ContactImageView.swift */; };
+		5E3BBBF41CFB7811003D60BB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3BBBF31CFB7811003D60BB /* AppDelegate.swift */; };
+		5E3BBBF61CFB7811003D60BB /* ContactImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3BBBF51CFB7811003D60BB /* ContactImageView.swift */; };
+		5E3BBBF91CFB7812003D60BB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BBBF71CFB7812003D60BB /* Main.storyboard */; };
+		5E3BBBFB1CFB7813003D60BB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BBBFA1CFB7813003D60BB /* Assets.xcassets */; };
+		5E3BBBFE1CFB7814003D60BB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5E3BBBFC1CFB7814003D60BB /* LaunchScreen.storyboard */; };
+		5E3BBC091CFB7857003D60BB /* ContactImageViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3BBC081CFB7857003D60BB /* ContactImageViewTests.swift */; };
+		5E3BBC141CFB8C60003D60BB /* Demo.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E3BBC131CFB8C60003D60BB /* Demo.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		5ECED86A1CFB9AB800395C66 /* PBXContainerItemProxy */ = {
+		5E3BBC051CFB7854003D60BB /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 5ECED8551CFB9AB700395C66 /* Project object */;
+			containerPortal = 5E3BBBE81CFB7810003D60BB /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5ECED85D1CFB9AB700395C66;
+			remoteGlobalIDString = 5E3BBBEF1CFB7810003D60BB;
 			remoteInfo = ContactImageView;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		5ECED85E1CFB9AB700395C66 /* ContactImageView.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ContactImageView.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ECED8611CFB9AB700395C66 /* ContactImageView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ContactImageView.h; sourceTree = "<group>"; };
-		5ECED8631CFB9AB700395C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5ECED8681CFB9AB800395C66 /* ContactImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		5ECED86D1CFB9AB800395C66 /* ContactImageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactImageViewTests.swift; sourceTree = "<group>"; };
-		5ECED86F1CFB9AB800395C66 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		5ECED8781CFB9AD700395C66 /* ContactImageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactImageView.swift; sourceTree = "<group>"; };
+		5E3BBBF01CFB7811003D60BB /* ContactImageView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactImageView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3BBBF31CFB7811003D60BB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		5E3BBBF51CFB7811003D60BB /* ContactImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactImageView.swift; sourceTree = "<group>"; };
+		5E3BBBF81CFB7812003D60BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		5E3BBBFA1CFB7813003D60BB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E3BBBFD1CFB7814003D60BB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		5E3BBBFF1CFB7818003D60BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3BBC041CFB7854003D60BB /* ContactImageViewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactImageViewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E3BBC081CFB7857003D60BB /* ContactImageViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactImageViewTests.swift; sourceTree = "<group>"; };
+		5E3BBC0A1CFB7857003D60BB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5E3BBC131CFB8C60003D60BB /* Demo.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Demo.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		5ECED85A1CFB9AB700395C66 /* Frameworks */ = {
+		5E3BBBED1CFB7810003D60BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5ECED8651CFB9AB800395C66 /* Frameworks */ = {
+		5E3BBC011CFB7854003D60BB /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ECED8691CFB9AB800395C66 /* ContactImageView.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		5ECED8541CFB9AB700395C66 = {
+		5E3BBBE71CFB780F003D60BB = {
 			isa = PBXGroup;
 			children = (
-				5ECED8601CFB9AB700395C66 /* ContactImageView */,
-				5ECED86C1CFB9AB800395C66 /* ContactImageViewTests */,
-				5ECED85F1CFB9AB700395C66 /* Products */,
+				5E3BBBF21CFB7811003D60BB /* ContactImageView */,
+				5E3BBC071CFB7855003D60BB /* ContactImageViewTests */,
+				5E3BBBF11CFB7811003D60BB /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		5ECED85F1CFB9AB700395C66 /* Products */ = {
+		5E3BBBF11CFB7811003D60BB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				5ECED85E1CFB9AB700395C66 /* ContactImageView.framework */,
-				5ECED8681CFB9AB800395C66 /* ContactImageViewTests.xctest */,
+				5E3BBBF01CFB7811003D60BB /* ContactImageView.app */,
+				5E3BBC041CFB7854003D60BB /* ContactImageViewTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		5ECED8601CFB9AB700395C66 /* ContactImageView */ = {
+		5E3BBBF21CFB7811003D60BB /* ContactImageView */ = {
 			isa = PBXGroup;
 			children = (
-				5ECED87A1CFB9B1600395C66 /* Source */,
-				5ECED8611CFB9AB700395C66 /* ContactImageView.h */,
-				5ECED8631CFB9AB700395C66 /* Info.plist */,
+				5E3BBBF31CFB7811003D60BB /* AppDelegate.swift */,
+				5E3BBBF51CFB7811003D60BB /* ContactImageView.swift */,
+				5E3BBC131CFB8C60003D60BB /* Demo.swift */,
+				5E3BBBF71CFB7812003D60BB /* Main.storyboard */,
+				5E3BBBFA1CFB7813003D60BB /* Assets.xcassets */,
+				5E3BBBFC1CFB7814003D60BB /* LaunchScreen.storyboard */,
+				5E3BBBFF1CFB7818003D60BB /* Info.plist */,
 			);
 			path = ContactImageView;
 			sourceTree = "<group>";
 		};
-		5ECED86C1CFB9AB800395C66 /* ContactImageViewTests */ = {
+		5E3BBC071CFB7855003D60BB /* ContactImageViewTests */ = {
 			isa = PBXGroup;
 			children = (
-				5ECED86D1CFB9AB800395C66 /* ContactImageViewTests.swift */,
-				5ECED86F1CFB9AB800395C66 /* Info.plist */,
+				5E3BBC081CFB7857003D60BB /* ContactImageViewTests.swift */,
+				5E3BBC0A1CFB7857003D60BB /* Info.plist */,
 			);
 			path = ContactImageViewTests;
 			sourceTree = "<group>";
 		};
-		5ECED87A1CFB9B1600395C66 /* Source */ = {
-			isa = PBXGroup;
-			children = (
-				5ECED8781CFB9AD700395C66 /* ContactImageView.swift */,
-			);
-			path = Source;
-			sourceTree = "<group>";
-		};
 /* End PBXGroup section */
 
-/* Begin PBXHeadersBuildPhase section */
-		5ECED85B1CFB9AB700395C66 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				5ECED8621CFB9AB700395C66 /* ContactImageView.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXHeadersBuildPhase section */
-
 /* Begin PBXNativeTarget section */
-		5ECED85D1CFB9AB700395C66 /* ContactImageView */ = {
+		5E3BBBEF1CFB7810003D60BB /* ContactImageView */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5ECED8721CFB9AB800395C66 /* Build configuration list for PBXNativeTarget "ContactImageView" */;
+			buildConfigurationList = 5E3BBC0D1CFB7857003D60BB /* Build configuration list for PBXNativeTarget "ContactImageView" */;
 			buildPhases = (
-				5ECED8591CFB9AB700395C66 /* Sources */,
-				5ECED85A1CFB9AB700395C66 /* Frameworks */,
-				5ECED85B1CFB9AB700395C66 /* Headers */,
-				5ECED85C1CFB9AB700395C66 /* Resources */,
+				5E3BBBEC1CFB7810003D60BB /* Sources */,
+				5E3BBBED1CFB7810003D60BB /* Frameworks */,
+				5E3BBBEE1CFB7810003D60BB /* Resources */,
 			);
 			buildRules = (
 			);
@@ -127,72 +116,77 @@
 			);
 			name = ContactImageView;
 			productName = ContactImageView;
-			productReference = 5ECED85E1CFB9AB700395C66 /* ContactImageView.framework */;
-			productType = "com.apple.product-type.framework";
+			productReference = 5E3BBBF01CFB7811003D60BB /* ContactImageView.app */;
+			productType = "com.apple.product-type.application";
 		};
-		5ECED8671CFB9AB800395C66 /* ContactImageViewTests */ = {
+		5E3BBC031CFB7854003D60BB /* ContactImageViewTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 5ECED8751CFB9AB800395C66 /* Build configuration list for PBXNativeTarget "ContactImageViewTests" */;
+			buildConfigurationList = 5E3BBC101CFB7857003D60BB /* Build configuration list for PBXNativeTarget "ContactImageViewTests" */;
 			buildPhases = (
-				5ECED8641CFB9AB800395C66 /* Sources */,
-				5ECED8651CFB9AB800395C66 /* Frameworks */,
-				5ECED8661CFB9AB800395C66 /* Resources */,
+				5E3BBC001CFB7854003D60BB /* Sources */,
+				5E3BBC011CFB7854003D60BB /* Frameworks */,
+				5E3BBC021CFB7854003D60BB /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				5ECED86B1CFB9AB800395C66 /* PBXTargetDependency */,
+				5E3BBC061CFB7854003D60BB /* PBXTargetDependency */,
 			);
 			name = ContactImageViewTests;
 			productName = ContactImageViewTests;
-			productReference = 5ECED8681CFB9AB800395C66 /* ContactImageViewTests.xctest */;
+			productReference = 5E3BBC041CFB7854003D60BB /* ContactImageViewTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		5ECED8551CFB9AB700395C66 /* Project object */ = {
+		5E3BBBE81CFB7810003D60BB /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0730;
 				LastUpgradeCheck = 0730;
 				ORGANIZATIONNAME = "George Kye";
 				TargetAttributes = {
-					5ECED85D1CFB9AB700395C66 = {
+					5E3BBBEF1CFB7810003D60BB = {
 						CreatedOnToolsVersion = 7.3;
 					};
-					5ECED8671CFB9AB800395C66 = {
+					5E3BBC031CFB7854003D60BB = {
 						CreatedOnToolsVersion = 7.3;
+						TestTargetID = 5E3BBBEF1CFB7810003D60BB;
 					};
 				};
 			};
-			buildConfigurationList = 5ECED8581CFB9AB700395C66 /* Build configuration list for PBXProject "ContactImageView" */;
+			buildConfigurationList = 5E3BBBEB1CFB7810003D60BB /* Build configuration list for PBXProject "ContactImageView" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				Base,
 			);
-			mainGroup = 5ECED8541CFB9AB700395C66;
-			productRefGroup = 5ECED85F1CFB9AB700395C66 /* Products */;
+			mainGroup = 5E3BBBE71CFB780F003D60BB;
+			productRefGroup = 5E3BBBF11CFB7811003D60BB /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				5ECED85D1CFB9AB700395C66 /* ContactImageView */,
-				5ECED8671CFB9AB800395C66 /* ContactImageViewTests */,
+				5E3BBBEF1CFB7810003D60BB /* ContactImageView */,
+				5E3BBC031CFB7854003D60BB /* ContactImageViewTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		5ECED85C1CFB9AB700395C66 /* Resources */ = {
+		5E3BBBEE1CFB7810003D60BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5E3BBBFE1CFB7814003D60BB /* LaunchScreen.storyboard in Resources */,
+				5E3BBBFB1CFB7813003D60BB /* Assets.xcassets in Resources */,
+				5E3BBBF91CFB7812003D60BB /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5ECED8661CFB9AB800395C66 /* Resources */ = {
+		5E3BBC021CFB7854003D60BB /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -202,35 +196,55 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		5ECED8591CFB9AB700395C66 /* Sources */ = {
+		5E3BBBEC1CFB7810003D60BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ECED8791CFB9AD700395C66 /* ContactImageView.swift in Sources */,
+				5E3BBBF61CFB7811003D60BB /* ContactImageView.swift in Sources */,
+				5E3BBBF41CFB7811003D60BB /* AppDelegate.swift in Sources */,
+				5E3BBC141CFB8C60003D60BB /* Demo.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		5ECED8641CFB9AB800395C66 /* Sources */ = {
+		5E3BBC001CFB7854003D60BB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5ECED86E1CFB9AB800395C66 /* ContactImageViewTests.swift in Sources */,
-				5ECED87B1CFBA33200395C66 /* ContactImageView.swift in Sources */,
+				5E3BBC091CFB7857003D60BB /* ContactImageViewTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		5ECED86B1CFB9AB800395C66 /* PBXTargetDependency */ = {
+		5E3BBC061CFB7854003D60BB /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 5ECED85D1CFB9AB700395C66 /* ContactImageView */;
-			targetProxy = 5ECED86A1CFB9AB800395C66 /* PBXContainerItemProxy */;
+			target = 5E3BBBEF1CFB7810003D60BB /* ContactImageView */;
+			targetProxy = 5E3BBC051CFB7854003D60BB /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		5E3BBBF71CFB7812003D60BB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E3BBBF81CFB7812003D60BB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		5E3BBBFC1CFB7814003D60BB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5E3BBBFD1CFB7814003D60BB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
-		5ECED8701CFB9AB800395C66 /* Debug */ = {
+		5E3BBC0B1CFB7857003D60BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -250,7 +264,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -273,13 +286,10 @@
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
 		};
-		5ECED8711CFB9AB800395C66 /* Release */ = {
+		5E3BBC0C1CFB7857003D60BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -299,7 +309,6 @@
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
-				CURRENT_PROJECT_VERSION = 1;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -314,99 +323,85 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
-				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
 		};
-		5ECED8731CFB9AB800395C66 /* Debug */ = {
+		5E3BBC0E1CFB7857003D60BB /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = ContactImageView/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GeorgeKye.ContactImageView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
-			};
-			name = Debug;
-		};
-		5ECED8741CFB9AB800395C66 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				CLANG_ENABLE_MODULES = YES;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = ContactImageView/Info.plist;
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GeorgeKye.ContactImageView;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SKIP_INSTALL = YES;
-			};
-			name = Release;
-		};
-		5ECED8761CFB9AB800395C66 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				INFOPLIST_FILE = ContactImageViewTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = GeorgeKye.ContactImageViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		5ECED8771CFB9AB800395C66 /* Release */ = {
+		5E3BBC0F1CFB7857003D60BB /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ContactImageView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GeorgeKye.ContactImageView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		5E3BBC111CFB7857003D60BB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				INFOPLIST_FILE = ContactImageViewTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = GeorgeKye.ContactImageViewTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactImageView.app/ContactImageView";
+			};
+			name = Debug;
+		};
+		5E3BBC121CFB7857003D60BB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ContactImageViewTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = GeorgeKye.ContactImageViewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ContactImageView.app/ContactImageView";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		5ECED8581CFB9AB700395C66 /* Build configuration list for PBXProject "ContactImageView" */ = {
+		5E3BBBEB1CFB7810003D60BB /* Build configuration list for PBXProject "ContactImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5ECED8701CFB9AB800395C66 /* Debug */,
-				5ECED8711CFB9AB800395C66 /* Release */,
+				5E3BBC0B1CFB7857003D60BB /* Debug */,
+				5E3BBC0C1CFB7857003D60BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		5ECED8721CFB9AB800395C66 /* Build configuration list for PBXNativeTarget "ContactImageView" */ = {
+		5E3BBC0D1CFB7857003D60BB /* Build configuration list for PBXNativeTarget "ContactImageView" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5ECED8731CFB9AB800395C66 /* Debug */,
-				5ECED8741CFB9AB800395C66 /* Release */,
+				5E3BBC0E1CFB7857003D60BB /* Debug */,
+				5E3BBC0F1CFB7857003D60BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
-		5ECED8751CFB9AB800395C66 /* Build configuration list for PBXNativeTarget "ContactImageViewTests" */ = {
+		5E3BBC101CFB7857003D60BB /* Build configuration list for PBXNativeTarget "ContactImageViewTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5ECED8761CFB9AB800395C66 /* Debug */,
-				5ECED8771CFB9AB800395C66 /* Release */,
+				5E3BBC111CFB7857003D60BB /* Debug */,
+				5E3BBC121CFB7857003D60BB /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 5ECED8551CFB9AB700395C66 /* Project object */;
+	rootObject = 5E3BBBE81CFB7810003D60BB /* Project object */;
 }
