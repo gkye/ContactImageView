@@ -1,11 +1,6 @@
 ## ContactImageView
 ----------------------
 
-[![CI Status](http://img.shields.io/travis/=/ContactImageView.svg?style=flat)](https://travis-ci.org/=/ContactImageView)
-[![Version](https://img.shields.io/cocoapods/v/ContactImageView.svg?style=flat)](http://cocoapods.org/pods/ContactImageView)
-[![License](https://img.shields.io/cocoapods/l/ContactImageView.svg?style=flat)](http://cocoapods.org/pods/ContactImageView)
-[![Platform](https://img.shields.io/cocoapods/p/ContactImageView.svg?style=flat)](http://cocoapods.org/pods/ContactImageView)
-
 UIImageView subclass which generates text as the placeholder for an ImageView, supports `IBDesignable` and code.
 
 ## Installation
