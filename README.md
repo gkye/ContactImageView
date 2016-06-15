@@ -1,3 +1,4 @@
+[![codebeat badge](https://codebeat.co/badges/0307d76d-2646-4566-8e82-869b90c95f92)](https://codebeat.co/projects/github-com-gkye-contactimageview)
 ## ContactImageView
 ----------------------
 
