@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  ContactImageView
 //  ContactImageView
 //
 //  Created by George on 2016-05-29.
@@ -18,60 +18,71 @@ import UIKit
   @IBInspectable public var fontSize: CGFloat = 22{
     didSet{
       textFont = textFont.fontWithSize(fontSize)
-      prepareForInterfaceBuilder()
+      setStoryboardImage()
+    }
+  }
+  
+  @IBInspectable public var labelFont: String?{
+    didSet{
+      if let font = labelFont{
+        if let setFont = UIFont(name: font, size: fontSize){
+          self.textFont = setFont
+          setStoryboardImage()
+        }
+      }
     }
   }
   
   /// Sets color of text being displayed, default is white color
   @IBInspectable public var textColor: UIColor = UIColor.whiteColor(){
     didSet{
-      prepareForInterfaceBuilder()
+      setStoryboardImage()
     }
   }
   
   /// Set text to be displayed in UIImageView, default is "GK".
   @IBInspectable public var text: String = "GK"{
     didSet{
-      prepareForInterfaceBuilder()
+      setStoryboardImage()
     }
   }
   
   @IBInspectable public var username: Bool = false{
     didSet{
-      prepareForInterfaceBuilder()
+      setStoryboardImage()
     }
   }
   
   @IBInspectable public var backgroundImage: UIImage? = nil{
     didSet{
-      prepareForInterfaceBuilder()
+      setStoryboardImage()
     }
   }
   
   /// Returns a circular if set true, default is false
   @IBInspectable public var circle: Bool = true{
     didSet{
-      prepareForInterfaceBuilder()
+      setStoryboardImage()
     }
   }
   
   /// Set background color your imageview
   @IBInspectable public var fillColor: UIColor = UIColor.lightGrayColor(){
     didSet{
-      prepareForInterfaceBuilder()
+      setStoryboardImage()
     }
   }
   
   override public var bounds: CGRect {
     didSet {
-      prepareForInterfaceBuilder()
+      setStoryboardImage()
     }
   }
   
-  override public func prepareForInterfaceBuilder() {
-    super.prepareForInterfaceBuilder()
+  private func setStoryboardImage(){
     setImageText(text: text, backgroundImage: backgroundImage, username: username, font: textFont, textColor: textColor, fillColor: fillColor, circle: circle)
   }
+  
   
   
   public func setImageText(text text: String, backgroundImage: UIImage? = nil, username: Bool = false, font: UIFont = UIFont.systemFontOfSize(22), textColor: UIColor = UIColor.whiteColor(), fillColor: UIColor, circle: Bool = true){
@@ -160,10 +171,13 @@ import UIKit
     if let initalFirst = username[0].characters.first {
       initial.append(initalFirst)
     }
-    if let initalSecond = username[1].characters.first {
-      initial.append(initalSecond)
+    if username.count > 1{
+      if let initalSecond = username[1].characters.first {
+        initial.append(initalSecond)
+      }
     }
     return initial
     
   }
+  
 }
