@@ -1,19 +1,18 @@
+[![codebeat badge](https://codebeat.co/badges/0307d76d-2646-4566-8e82-869b90c95f92)](https://codebeat.co/projects/github-com-gkye-contactimageview)
 ## ContactImageView
 ----------------------
-
-[![CI Status](http://img.shields.io/travis/=/ContactImageView.svg?style=flat)](https://travis-ci.org/=/ContactImageView)
-[![Version](https://img.shields.io/cocoapods/v/ContactImageView.svg?style=flat)](http://cocoapods.org/pods/ContactImageView)
-[![License](https://img.shields.io/cocoapods/l/ContactImageView.svg?style=flat)](http://cocoapods.org/pods/ContactImageView)
-[![Platform](https://img.shields.io/cocoapods/p/ContactImageView.svg?style=flat)](http://cocoapods.org/pods/ContactImageView)
 
 UIImageView subclass which generates text as the placeholder for an ImageView, supports `IBDesignable` and code.
 
 ## Installation
 CocoaPods comming soon
 
+### Manual
+Drag `ContactImageView.swift` file to your project
+
 ## Usage
 
-### Stoyboard / `IBDesignable`
+### Storyboard / `IBDesignable`
 ![IBDesignable screenshot](http://g.recordit.co/vqI1yZmutI.gif)
 
 ### Programmatic / Code
