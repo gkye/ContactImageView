@@ -59,10 +59,14 @@ import UIKit
     }
   }
   
-  /// Returns a circular if set true, default is false
+/// Returns a circular if set true, default is false
   @IBInspectable public var circle: Bool = true{
     didSet{
-      setStoryboardImage()
+      if circle{
+        self.layer.cornerRadius = self.bounds.width / 2
+      }else{
+        self.layer.cornerRadius = 0
+      }
     }
   }
   
