@@ -41,5 +41,4 @@ ContactImageView is available under the MIT license. See the LICENSE file for mo
 ### TODO
 
 - [ ] CocoaPods
-- [ ] Add more tests
 
