@@ -26,6 +26,6 @@ s.description      = "UIImageView subclass which generates text as the placehold
   s.social_media_url = 'https://twitter.com/kyegeorge'
 
   s.ios.deployment_target = '8.0'
-  s.source_files = 'Source/**/*'
+  s.source_files = 'ContactImageView/ContactImageView.swift'
 
 end
