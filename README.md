@@ -5,7 +5,8 @@
 UIImageView subclass which generates text as the placeholder for an ImageView, supports `IBDesignable` and code.
 
 ## Installation
-CocoaPods comming soon
+### CocoaPods
+```pod 'ContactImageView' ```
 
 ### Manual
 Drag `ContactImageView.swift` file to your project
