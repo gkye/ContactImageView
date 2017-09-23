@@ -38,8 +38,3 @@ Option 2
 
 ## License
 ContactImageView is available under the MIT license. See the LICENSE file for more info.
-
-### TODO
-
-- [ ] CocoaPods
-
