@@ -98,7 +98,7 @@ import UIKit
     }
     
     let attributes = getAttributedText(text: imgText, color: textColor, textFont: font)
-    let attributedText = NSAttributedString(string: imgText, attributes: attributes)
+        let attributedText = NSAttributedString(string: imgText, attributes: attributes as [String : Any])
         self.image = createImage(attributedString: attributedText, backgroundImage: backgroundImage, backgroundColor: fillColor)
   }
   
@@ -117,7 +117,7 @@ import UIKit
   func getAttributedText(text: String, color: UIColor, textFont: UIFont) -> [NSAttributedStringKey: AnyObject] {
     let area:CGFloat = self.bounds.width * textFont.pointSize
     let size = sqrt(area / CGFloat(text.characters.count))
-    let attribute:[NSAttributedStringKey:AnyObject] = [NSAttributedStringKey.foregroundColor: color, NSAttributedStringKey.font: textFont.withSize(size)]
+    let attribute:[NSAttributedStringKey:AnyObject] = [NSForegroundColorAttributeName as NSString: color, NSFontAttributeName as NSString: textFont.withSize(size)]
     return attribute
   }
   
