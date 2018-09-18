@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'ContactImageView'
-  s.version          = '0.2.0'
+  s.version          = '0.3.0'
   s.summary          = 'UIImageView subclass which generates text as the placeholder for an ImageView,'
 
 # This description is used to generate tags and improve search results.
@@ -27,5 +27,5 @@ s.description      = "UIImageView subclass which generates text as the placehold
 
   s.ios.deployment_target = '8.0'
   s.source_files = 'ContactImageView/ContactImageView.swift'
-
+  s.swift_version = '4.0'
 end
