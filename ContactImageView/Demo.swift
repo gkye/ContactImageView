@@ -15,11 +15,11 @@ class Demo: UIViewController{
   
   override func viewDidLoad() {
     super.viewDidLoad()
-    let imageView = ContactImageView(frame: CGRect(x:10, y: 50, width: 100, height: 100))
+    let imageView = ContactImageView(frame: CGRect(x:10, y: 300, width: 100, height: 100))
     
     imageView.setImageText(text: "George Kye", backgroundImage: UIImage(named: "bg"), username: true, textColor: UIColor.white, fillColor: UIColor.black, circle: true)
     
-    let imageView2 = ContactImageView(frame: CGRect(x:130, y: 50, width: 100, height: 100))
+    let imageView2 = ContactImageView(frame: CGRect(x:130, y: 300, width: 100, height: 100))
     imageView2.text = "Joe Swanson"
     imageView2.username = true
     imageView2.textColor = UIColor.purple
